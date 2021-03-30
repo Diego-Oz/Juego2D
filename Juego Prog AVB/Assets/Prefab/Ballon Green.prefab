@@ -93,6 +93,7 @@ GameObject:
   - component: {fileID: 8499426603441509988}
   - component: {fileID: 7484151294691223634}
   - component: {fileID: 1355308954968668839}
+  - component: {fileID: -7200909908094255354}
   m_Layer: 0
   m_Name: Ballon Green
   m_TagString: Untagged
@@ -152,3 +153,15 @@ CircleCollider2D:
   m_Offset: {x: 7.74, y: -2.02}
   serializedVersion: 2
   m_Radius: 0.83
+--- !u!114 &-7200909908094255354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8378081751210455853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c15d90dd0b7a9244899f8b119a8eb058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

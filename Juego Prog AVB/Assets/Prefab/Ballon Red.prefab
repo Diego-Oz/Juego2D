@@ -93,6 +93,7 @@ GameObject:
   - component: {fileID: 6038426028953234845}
   - component: {fileID: 41984177297580237}
   - component: {fileID: -947021995932232297}
+  - component: {fileID: 1476614899719322381}
   m_Layer: 0
   m_Name: Ballon Red
   m_TagString: Untagged
@@ -152,3 +153,15 @@ CircleCollider2D:
   m_Offset: {x: 9.35, y: 0.61}
   serializedVersion: 2
   m_Radius: 0.74
+--- !u!114 &1476614899719322381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7837059680779527260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c15d90dd0b7a9244899f8b119a8eb058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
