@@ -294,7 +294,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 300492349}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
@@ -309,7 +309,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 300492348}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.13, y: -0.38292155, z: -10.649388}
+  m_LocalPosition: {x: 2.2, y: -0.38292155, z: -10.649388}
   m_LocalScale: {x: 1.8351991, y: 1.9146085, z: 1}
   m_Children: []
   m_Father: {fileID: 619279609}
@@ -432,6 +432,8 @@ MonoBehaviour:
   healthText: {fileID: 145679467}
   HealthBar: {fileID: 145679469}
   TimeIsUp: {fileID: 145679468}
+  explosion: {fileID: 0}
+  healtPoints: 0
   Sp: 3
 --- !u!1 &619279607
 GameObject:
@@ -445,7 +447,7 @@ GameObject:
   - component: {fileID: 619279608}
   - component: {fileID: 619279610}
   - component: {fileID: 619279611}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Galushi
   m_TagString: Untagged
   m_Icon: {fileID: 0}

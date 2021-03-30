@@ -7,25 +7,28 @@ public class ship : MonoBehaviour
 {
     public GameObject explosion;
     public Image HealthBar;
-
-    float health, maxHealth = 100;
+    public float healtPoints;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("hit detected");
-        GameObject e = Instantiate(explosion) as GameObject;
-        e.transform.position = transform.position;
-        Destroy(other.gameObject);
-        this.gameObject.SetActive(false);
+        if (other.gameObject.layer != 6)
+        {
+            GameObject e = Instantiate(explosion) as GameObject;
+            e.transform.position = transform.position;
+            Destroy(other.gameObject);
+            this.gameObject.SetActive(false);
+        }
 
-        health += 15; 
+        if (other.gameObject.layer == 7)
+        {
+            healtPoints = 10;
+            BarraVida.Heal(healtPoints);
+        }
 
-
+        if (other.gameObject.layer == 8)
+        {
+            healtPoints = 1;
+            BarraVida.Heal(healtPoints);
+        }
     }
-
-    void HealthBarFiller()
-    {
-        //HealthBar.fillAmount = Mathf.Lerp(HealthBar.fillAmount, health / maxHealth, health);
-    }
-
 }

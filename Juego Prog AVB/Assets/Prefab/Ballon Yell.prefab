@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6661175669824807486}
   - component: {fileID: 6189887559791992004}
   - component: {fileID: 7273809100696234296}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ballon Yell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   m_Component:
   - component: {fileID: 358358001932474463}
   - component: {fileID: 2545136784442434448}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: blue-balloon-clipart-png-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}

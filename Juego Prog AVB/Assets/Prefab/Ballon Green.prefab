@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6726931846176256230}
   - component: {fileID: 991662928810140805}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: blue-balloon-clipart-png-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 7484151294691223634}
   - component: {fileID: 1355308954968668839}
   - component: {fileID: -7200909908094255354}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ballon Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
