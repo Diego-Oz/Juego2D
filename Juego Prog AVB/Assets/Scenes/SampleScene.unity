@@ -452,6 +452,7 @@ GameObject:
   - component: {fileID: 619279608}
   - component: {fileID: 619279610}
   - component: {fileID: 619279611}
+  - component: {fileID: 619279612}
   m_Layer: 6
   m_Name: Galushi
   m_TagString: Untagged
@@ -518,7 +519,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 619279607}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.1, y: 2.05, z: 0}
+  m_LocalPosition: {x: -12, y: -4.9, z: 0}
   m_LocalScale: {x: 0.5449, y: 0.5223, z: 1}
   m_Children:
   - {fileID: 300492349}
@@ -555,6 +556,20 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1.8
+--- !u!114 &619279612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619279607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d50fdf9a2fed3546be73118223e1977, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hrange: {x: -4.9, y: 4.9}
+  Vrange: {x: -12, y: 12}
 --- !u!1 &916488009
 GameObject:
   m_ObjectHideFlags: 0
@@ -672,7 +687,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 70.3, y: 177.9}
+  m_AnchoredPosition: {x: 70.3, y: 111}
   m_SizeDelta: {x: 152.609, y: 26.8948}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &972145660
@@ -784,7 +799,7 @@ MonoBehaviour:
   - {fileID: 1886169755}
   - {fileID: 1538082397}
   - {fileID: 217303296}
-  startTimeBtwSpawns: 2
+  startTimeBtwSpawns: 1
 --- !u!1 &1454437475
 GameObject:
   m_ObjectHideFlags: 0
