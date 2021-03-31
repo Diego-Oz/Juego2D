@@ -23,12 +23,14 @@ public class ship : MonoBehaviour
         {
             healtPoints = 10;
             BarraVida.Heal(healtPoints);
+            ScoreScript.scoreValue += 50;
         }
 
         if (other.gameObject.layer == 8)
         {
             healtPoints = 1;
             BarraVida.Heal(healtPoints);
+            ScoreScript.scoreValue += 10;
         }
     }
 }
