@@ -1,0 +1,2 @@
+C:\Users\Alci\Documents\GitHub\Juego2D\Juego Prog AVB\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\Alci\Documents\GitHub\Juego2D\Juego Prog AVB\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache

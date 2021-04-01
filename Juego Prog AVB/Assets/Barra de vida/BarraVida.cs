@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,19 +11,19 @@ public class BarraVida : MonoBehaviour
     public GameObject TimeIsUp;
     public GameObject explosion;
     public float healtPoints;
+    public GameObject Galushi;
 
-    float health, maxHealth = 100;
+    public float health, maxHealth = 100;
     float lerpSpeed;
     float speed = -3f;
     public float Sp = 1;
-    static float VidaEstatica;
+    static float VidaEstatica = 100;
 
     // Start is called before the first frame update
     void Start()
     {
         TimeIsUp.SetActive(false);
         health = maxHealth;
-
     }
 
     // Update is called once per frame
@@ -36,7 +37,7 @@ public class BarraVida : MonoBehaviour
         {
             VidaEstatica = health;
         }
-        healthText.text = "Combustible: " + health + " % ";
+        healthText.text = "Combustible: " + Math.Truncate(health) + " % ";
         if (health > maxHealth)
             health = maxHealth;
         if (health > 0)
@@ -49,6 +50,7 @@ public class BarraVida : MonoBehaviour
         lerpSpeed = speed * Time.deltaTime;
         HealthBarFiller();
         ColorChanger();
+        CantidadVida();
     }
     void HealthBarFiller()
     {
@@ -67,5 +69,10 @@ public class BarraVida : MonoBehaviour
     public static void Heal(float healinPoints)
     {
         VidaEstatica += healinPoints;
+    }
+
+    public static float CantidadVida()
+    {
+        return VidaEstatica;
     }
 }

@@ -331,8 +331,8 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
-  - component: {fileID: 519420030}
   - component: {fileID: 519420033}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -439,6 +439,9 @@ MonoBehaviour:
   TimeIsUp: {fileID: 145679468}
   explosion: {fileID: 0}
   healtPoints: 0
+  Galushi: {fileID: 0}
+  health: 0
+  maxHealth: 100
   Sp: 3
 --- !u!1 &619279607
 GameObject:
@@ -453,6 +456,7 @@ GameObject:
   - component: {fileID: 619279610}
   - component: {fileID: 619279611}
   - component: {fileID: 619279612}
+  - component: {fileID: 619279613}
   m_Layer: 6
   m_Name: Galushi
   m_TagString: Untagged
@@ -519,7 +523,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 619279607}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12, y: -4.9, z: 0}
+  m_LocalPosition: {x: -6.7, y: -0.27, z: 0}
   m_LocalScale: {x: 0.5449, y: 0.5223, z: 1}
   m_Children:
   - {fileID: 300492349}
@@ -570,6 +574,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Hrange: {x: -4.9, y: 4.9}
   Vrange: {x: -12, y: 12}
+--- !u!114 &619279613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619279607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10a6228d317953942b484ed58941c641, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Galushi: {fileID: 0}
+  explosion: {fileID: 1601183438178298922, guid: 412f3360dfa0d6c4e9a6a7a80435b871, type: 3}
 --- !u!1 &916488009
 GameObject:
   m_ObjectHideFlags: 0
@@ -687,7 +705,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 70.3, y: 111}
+  m_AnchoredPosition: {x: 70.3, y: 191.1}
   m_SizeDelta: {x: 152.609, y: 26.8948}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &972145660
